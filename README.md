@@ -1,6 +1,20 @@
 #  notesTest
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
+#React-native task: Create Notes app that will save notes to AsyncStorage
+
+1.Install https://github.com/infinitered/ignite
+2. Using this boilerplate create Home Page with the input field and ‘Create’ button in the middle of the screen.
+3. Using ‘redux-form’ (https://redux-form.com) connect the input to redux and add submit action to ‘Create’ button.
+4. On submit it should add new item to AsyncStorage
+5. Add ‘Show notes’ button at the bottom of the screen that will redirect to a new screen with notes lists fetched from AsyncStorage.
+6. List item should show the only 1st line of note.( other lines should be hidden )]
+7. On click on some of the list item, it will open modal with full item text
+8. Make sure to let the user go back to home screen.
+9. Make sure app will show all added data after app refresh.
+-native task: Create Notes app that will save notes to AsyncStorage
+
+
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
 ## :arrow_up: How to Setup
