@@ -5,13 +5,9 @@
 
 
 1.Install https://github.com/infinitered/ignite
-
 2. Using this boilerplate create Home Page with the input field and ‘Create’ button in the middle of the screen.
-
 3. Using ‘redux-form’ (https://redux-form.com) connect the input to redux and add submit action to ‘Create’ button.
-
 4. On submit it should add new item to AsyncStorage
-
 5. Add ‘Show notes’ button at the bottom of the screen that will redirect to a new screen with notes lists fetched from AsyncStorage.
 6. List item should show the only 1st line of note.( other lines should be hidden )]
 7. On click on some of the list item, it will open modal with full item text
