@@ -22,6 +22,7 @@ export default StyleSheet.create({
   },
   rowText: {
     fontSize: 20,
-    lineHeight: 33
+    lineHeight: 33,
+    color: 'black'
   }
 });
