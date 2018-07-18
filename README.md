@@ -5,6 +5,7 @@
 
 
 1.Install https://github.com/infinitered/ignite
+
 2. Using this boilerplate create Home Page with the input field and ‘Create’ button in the middle of the screen.
 3. Using ‘redux-form’ (https://redux-form.com) connect the input to redux and add submit action to ‘Create’ button.
 4. On submit it should add new item to AsyncStorage
