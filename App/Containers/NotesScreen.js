@@ -37,16 +37,6 @@ class NotesScreen extends Component {
     };
   }
 
-  componentDidMount() {}
-
-  componentWillReceiveProps(newProps) {
-    const ds = new ListView.DataSource({ rowHasChanged });
-    if (newProps.notes) {
-      this.setState({
-        dataSource: ds.cloneWithRows(newProps.notes)
-      });
-    }
-  }
 
   showModal = note => {
     this.setState({ modal: true, note });
